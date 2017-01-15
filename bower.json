@@ -1,0 +1,22 @@
+{
+  "name": "Program",
+  "homepage": "https://github.com/ncoder/typescript_starter",
+  "authors": [
+    "Nicolas Coderre <nicolas.coderre@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "es6-promise": "^4.0.5",
+    "babylonjs": "^2.5.0"
+  }
+}

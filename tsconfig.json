@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "allowJs": true,
+    //"outFile": "all.js"
+    "outDir": "bin"
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ],
+  "include": [
+    "typings/**/*",
+    "bower_components/es6-promise/es6-promise-auto.js",
+    "src/**/*"
+  ],
+  "lib": [ "es2015.promise", "es5" ]
+}
