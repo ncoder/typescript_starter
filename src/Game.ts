@@ -27,6 +27,15 @@ class Game {
 
         this._light = new BABYLON.HemisphericLight('light1', new BABYLON.Vector3(1, 0, 0), this._scene);
 
+        var sphere = BABYLON.Mesh.CreateSphere("sphere1", 16, 2, this._scene);
+
+        // Move the sphere upward 1/2 its height
+        sphere.position.y = 1;
+
+        var sphere2 = BABYLON.Mesh.CreateSphere("sphere2", 16, 2, this._scene);
+        sphere.position.x = 1;
+
+
     }
 
     animate(): void {
